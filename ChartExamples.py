@@ -6,9 +6,14 @@ import tkinter as tk
 def do_close():
     window.destroy()
 
+# Создание главного окна
 window=tk.Tk()
 window.geometry("450x450")
 window.title("Примеры построения графиков")
+
+# Добавление метки заголовка
+lblTitle = tk.Label(text = "Примеры построения графиков", font = ('Helvetika', 16, 'bold'), fg = '#0000cc')
+lblTitle.place(x=55, y=25)
 
 # Добавление кнопки закрытия программы
 btnClose = tk.Button(window,text="Закрыть", font = ('Helvetika', 10, 'bold'), command=do_close)
