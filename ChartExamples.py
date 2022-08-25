@@ -13,7 +13,7 @@ def do_close():
 
 # Создание главного окна
 window=tk.Tk()
-window.geometry("450x450")
+window.geometry("450x550")
 window.title("Примеры построения графиков")
 
 # Добавление метки заголовка
@@ -35,15 +35,50 @@ lblChart2 = tk.Label(text = "Нормальное распределение")
 lblChart2.place(x=170, y=172)
 
 # Добавление кнопки и метки для графика 3
-btnChart3 = tk.Button(window, text="График 2", font = ('Helvetika', 10, 'bold'), command=chart3.plot_chart)
+btnChart3 = tk.Button(window, text="График 3", font = ('Helvetika', 10, 'bold'), command=chart3.plot_chart)
 btnChart3.place(x=40, y=215, width=90, height=30)
 
 lblChart3 = tk.Label(text = "Пошаговая демонстрация")
 lblChart3.place(x=170, y=222)
 
+# Добавление кнопки и метки для графика 4
+btnChart3 = tk.Button(window, text="График 4", font = ('Helvetika', 10, 'bold'), command=chart3.plot_chart)
+btnChart3.place(x=40, y=265, width=90, height=30)
+
+lblChart3 = tk.Label(text = "Нормальное распределение - 3 графика")
+lblChart3.place(x=170, y=272)
+
+# Добавление кнопки и метки для графика 5
+btnChart3 = tk.Button(window, text="График 5", font = ('Helvetika', 10, 'bold'), command=chart3.plot_chart)
+btnChart3.place(x=40, y=315, width=90, height=30)
+
+lblChart3 = tk.Label(text = "Описание графика")
+lblChart3.place(x=170, y=322)
+
+# Добавление кнопки и метки для графика 6
+btnChart3 = tk.Button(window, text="График 6", font = ('Helvetika', 10, 'bold'), command=chart3.plot_chart)
+btnChart3.place(x=40, y=365, width=90, height=30)
+
+lblChart3 = tk.Label(text = "Описание графика")
+lblChart3.place(x=170, y=372)
+
+# Добавление кнопки и метки для графика 7
+btnChart3 = tk.Button(window, text="График 7", font = ('Helvetika', 10, 'bold'), command=chart3.plot_chart)
+btnChart3.place(x=40, y=415, width=90, height=30)
+
+lblChart3 = tk.Label(text = "Описание графика")
+lblChart3.place(x=170, y=422)
+
+# Добавление кнопки и метки для графика 8
+btnChart3 = tk.Button(window, text="График 8", font = ('Helvetika', 10, 'bold'), command=chart3.plot_chart)
+btnChart3.place(x=40, y=465, width=90, height=30)
+
+lblChart3 = tk.Label(text = "Описание графика")
+lblChart3.place(x=170, y=472)
+
 # Добавление кнопки закрытия программы
 btnClose = tk.Button(window,text="Закрыть", font = ('Helvetika', 10, 'bold'), command=do_close)
-btnClose.place(x=330, y=400, width=90, height=30)
+btnClose.place(x=330, y=500, width=90, height=30)
 
 
 # Запуск цикла mainloop
